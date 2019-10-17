@@ -1,0 +1,153 @@
+#----UTF-8 **windows-1252**
+{
+ "data":
+ {
+  "me":
+  {
+   "login":"cupzaa",
+   "email":"cupzaa@gmail.com",
+   "id":"14582626",
+   "profile_image_url":null,
+   "profile_username":null,
+   "timezone":"Bangkok",
+   "bio":null,
+   "website":null,
+   "created_at":"2018-02-20 06:20:55 -0800",
+   "organizations":[],
+   "devices":
+   [
+    {
+     "device_type":"CPH1911",
+               "system_version":"9",
+               "mobile_app":
+               {
+                "os":"Android",
+                             "name":"IFTTT"
+                            }
+              }
+             ]
+  },
+  "live_channels":
+  [
+   {
+    "user_name_field":null,
+                    "user_id_field":null,
+                    "created_at":"2018-02-20 06:20:55 -0800",
+                    "offline":false,
+    "channel":
+    {
+     "module_name":"date_and_time",
+     "name":"Date & Time"
+    }
+                   },
+                   {
+                    "user_name_field":null,
+                    "user_id_field":null,
+                    "created_at":"2018-02-20 06:20:56 -0800",
+                    "offline":false,
+                    "channel":
+                    {
+                     "module_name":"email",
+                               "name":"Email"
+                              }
+                   },
+   {
+    "user_name_field":null,
+    "user_id_field":null,
+    "created_at":"2018-02-20 06:20:57 -0800",
+    "offline":false,
+    "channel":
+    {
+     "module_name":"email_digest",
+     "name":"Email Digest"
+    }
+   },
+   {
+    "user_name_field":null,
+    "user_id_field":null,
+    "created_at":"2018-02-20 06:20:57 -0800",
+    "offline":false,
+    "channel":
+    {
+     "module_name":"space",
+     "name":"Space"
+    }
+   },
+   {
+ "user_name_field":null,
+    "user_id_field":null,
+    "created_at":"2018-02-20 06:20:57 -0800",
+    "offline":false,
+    "channel":
+    {
+     "module_name":"ifttt",
+     "name":"IFTTT"
+    }
+   },
+   {
+    "user_name_field":null,
+    "user_id_field":null,
+    "created_at":"2018-02-20 06:20:57 -0800",
+    "offline":false,
+    "channel":
+    {
+     "module_name":"feed",
+     "name":"RSS Feed"
+    }
+   },
+   {
+    "user_name_field":"cupzaa",
+    "user_id_field":null,
+    "created_at":"2018-02-20 06:20:57 -0800",
+    "offline":false,
+    "channel":
+    {
+     "module_name":"mocker",
+     "name":"Mocker"
+    }
+   },
+   {
+    "user_name_field":null,"user_id_field":null,
+    "created_at":"2018-02-20 06:20:58 -0800",
+    "offline":false,
+    "channel":
+    {
+     "module_name":"weather",
+     "name":"Weather Underground"
+    }
+   }
+  ],
+  "statements":[],
+  "live_applets":
+  [
+   {
+    "created_at":"2018-02-20 06:20:57 -0800","applet":
+                                       {
+                                        "normalized_applet":
+                                        {
+                                         "id":"i8YQ3XsG",
+                                         "name":"Get an email with the latest IFTTT updates",
+                                         "description":
+                                         "When the IFTTT Blog (ifttt.com/blog) publishes a new post, this Applet will send it to your inbox. Tips, data stories, new services, and more â€” be the first to know! ð Ÿ‘",
+                                         "status":"enabled_for_user","created_at":"2018-02-20 06:20:57 -0800",
+                                         "is_tombstoned":false
+                                        }
+                                       },
+                                       "live_applet_trigger":
+                                       {
+                                        "channel_module_name":"feed",
+                                        "module_name":"new_feed_item",
+                                        "live_fields":[]
+                                       },
+                                       "live_applet_actions":
+                                       [
+                                        {
+                                         "channel_module_name":"email",
+                                         "module_name":"send_me_email",
+                                         "live_fields":[]
+                                        }
+                                       ]
+                                      }
+                                     ]
+ }
+}
